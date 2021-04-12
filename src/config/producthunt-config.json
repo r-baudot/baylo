@@ -1,0 +1,26 @@
+{
+    "balyo":{
+        "redirectUri":"https://localhost:3000/redirectbalyo",
+        "ApiKey":"zT-bjEC7XLF7O2H89MbZiVl8mA4pDmxjdloOo4KpY04",
+        "ApiSecret":"S8_ifMmhFGSOLozPqNJma2ktNw712sKP7GooYZKf4JM",
+        "AppId":"45125"
+    },
+    "developer":{
+        "token": "zepKc1gwQKMwid6waL1l9OrbhTtpzmVTVBtfwwOxqao",
+        "user": "Romain Baudot",
+        "user_name": "romain_balyo"
+    },
+    "apiEndpoint":"https://api.producthunt.com/v2/api/graphql",
+    "header": {
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": "Bearer zepKc1gwQKMwid6waL1l9OrbhTtpzmVTVBtfwwOxqao",
+            "Host": "api.producthunt.com"
+        },
+        "mode": "cors"
+    }
+}
+
+
+
