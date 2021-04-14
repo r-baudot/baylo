@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './component/Products/ListProducts';
+import Home from './scenes/home/Home';
 
 
 ReactDOM.render(
