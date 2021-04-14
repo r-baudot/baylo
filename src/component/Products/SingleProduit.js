@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Product = styled.div`
-  flex: 25%;
+  flex: 100%;
   box-shadow: 1px 1px 4px #8e9495;
   border-radius: 8px;
   padding: 1em;
@@ -17,6 +17,9 @@ const Product = styled.div`
     font-family: sans-serif;
     line-height: 1.4em;
   }
+  @media only screen and (min-width: 768px) {
+      flex: 20%;
+    }
 `;
 
 const SingleProduit = ({ props: { name, description } }) => {
